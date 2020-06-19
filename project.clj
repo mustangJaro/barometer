@@ -12,9 +12,10 @@
                  [com.workiva/recide "1.0.1"]
                  [galdre/morphe "1.2.0"]
                  [org.clojure/tools.logging "0.4.0"]
-                 [io.dropwizard.metrics/metrics-core "3.2.6"]
-                 [io.dropwizard.metrics/metrics-graphite "3.2.6"]
-                 [io.dropwizard.metrics/metrics-jvm "3.2.6"]]
+                 [io.dropwizard.metrics/metrics-core "4.1.9"]
+                 [io.dropwizard.metrics/metrics-graphite "4.1.9"]
+                 [io.dropwizard.metrics/metrics-jvm "4.1.9"]
+                 [io.dropwizard.metrics/metrics-json "4.1.9"]]
 
   :deploy-repositories {"clojars"
                         {:url "https://repo.clojars.org"
