@@ -1,6 +1,6 @@
-(defproject com.workiva/barometer "0.1.2"
+(defproject mustangjaro/barometer "0.1.2"
   :description "A thin wrapper over Coda Hale's metrics library for the JVM"
-  :url "https://github.com/Workiva/barometer"
+  :url "https://github.com/mustangJaro/barometer"
   :license {:name "Apache License, Version 2.0"}
 
   :plugins [[lein-shell "0.5.0"]
@@ -10,7 +10,7 @@
   :dependencies [[org.clojure/clojure "1.9.0"]
                  [com.workiva/utiliva "0.1.0"]
                  [com.workiva/recide "1.0.1"]
-                 [galdre/morphe "1.0.1"]
+                 [galdre/morphe "1.2.0"]
                  [org.clojure/tools.logging "0.4.0"]
                  [io.dropwizard.metrics/metrics-core "3.2.6"]
                  [io.dropwizard.metrics/metrics-graphite "3.2.6"]
@@ -19,7 +19,7 @@
   :deploy-repositories {"clojars"
                         {:url "https://repo.clojars.org"
                          :username :env/clojars_username
-                         :password :env/clojars_password
+                         :password :env/clojars_token
                          :sign-releases false}}
 
   :source-paths      ["src"]
@@ -37,8 +37,8 @@
                               [:span.project-version]
                               [:substitute nil]
                               [:pre.deps]
-                              [:substitute [:a {:href "https://clojars.org/com.workiva/barometer"}
-                                            [:img {:src "https://img.shields.io/clojars/v/com.workiva/barometer.svg"}]]]]}
+                              [:substitute [:a {:href "https://clojars.org/mustangJaro/barometer"}
+                                            [:img {:src "https://img.shields.io/clojars/v/mustangJaro/barometer.svg"}]]]]}
           :output-path "documentation"}
 
   :profiles {:dev [{:dependencies [[criterium "0.4.3"]]}]

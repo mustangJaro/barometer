@@ -11,13 +11,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Workiva/barometer.git"
+    "url": "git+https://github.com/mustangJaro/barometer.git"
   },
   "author": "",
   "bugs": {
-    "url": "https://github.com/Workiva/barometer/issues"
+    "url": "https://github.com/mustangJaro/barometer/issues"
   },
-  "homepage": "https://github.com/Workiva/barometer#readme",
+  "homepage": "https://github.com/mustangJaro/barometer#readme",
   "dependencies": {
     "markdown-toc": "^1.2.0"
   }
