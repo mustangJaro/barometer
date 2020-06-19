@@ -54,7 +54,7 @@ Simple convenience macro that times the execution of the body, even if an except
 
 ### `barometer.aspects/timed`
 
-Designed to work with [`morphe`](https://github.com/Workiva/morphe), this allows simple generation of timers attached to functions.
+Designed to work with [`morphe`](https://github.com/galdre/morphe), this allows simple generation of timers attached to functions.
 
 ```clojure
 (ns my-ns
