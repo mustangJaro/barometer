@@ -3,7 +3,7 @@
   <groupId>mustangjaro</groupId>
   <artifactId>barometer</artifactId>
   <packaging>jar</packaging>
-  <version>0.1.2</version>
+  <version>0.1.3</version>
   <name>barometer</name>
   <description>A thin wrapper over Coda Hale's metrics library for the JVM</description>
   <url>https://github.com/mustangJaro/barometer</url>
@@ -16,7 +16,7 @@
     <url>https://github.com/mustangJaro/barometer</url>
     <connection>scm:git:git://github.com/mustangJaro/barometer.git</connection>
     <developerConnection>scm:git:ssh://git@github.com/mustangJaro/barometer.git</developerConnection>
-    <tag>300a9ae6f45a711c7076222cfb94c30f701b0d34</tag>
+    <tag>4187f67e0292cb0952d29c777bff491929a315af</tag>
   </scm>
   <build>
     <sourceDirectory>src</sourceDirectory>
@@ -89,17 +89,22 @@
     <dependency>
       <groupId>io.dropwizard.metrics</groupId>
       <artifactId>metrics-core</artifactId>
-      <version>3.2.6</version>
+      <version>4.1.9</version>
     </dependency>
     <dependency>
       <groupId>io.dropwizard.metrics</groupId>
       <artifactId>metrics-graphite</artifactId>
-      <version>3.2.6</version>
+      <version>4.1.9</version>
     </dependency>
     <dependency>
       <groupId>io.dropwizard.metrics</groupId>
       <artifactId>metrics-jvm</artifactId>
-      <version>3.2.6</version>
+      <version>4.1.9</version>
+    </dependency>
+    <dependency>
+      <groupId>io.dropwizard.metrics</groupId>
+      <artifactId>metrics-json</artifactId>
+      <version>4.1.9</version>
     </dependency>
   </dependencies>
 </project>

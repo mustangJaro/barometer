@@ -1,4 +1,4 @@
-(defproject mustangjaro/barometer "0.1.2"
+(defproject mustangjaro/barometer "0.1.3"
   :description "A thin wrapper over Coda Hale's metrics library for the JVM"
   :url "https://github.com/mustangJaro/barometer"
   :license {:name "Apache License, Version 2.0"}
@@ -19,8 +19,6 @@
 
   :deploy-repositories {"clojars"
                         {:url "https://repo.clojars.org"
-                         :username :env/clojars_username
-                         :password :env/clojars_token
                          :sign-releases false}}
 
   :source-paths      ["src"]
